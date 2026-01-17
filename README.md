@@ -22,7 +22,7 @@ pip install -e sparse_autoencoder/
 ```commandline
 python script/encode_embedding.py --data cub
 ```
-`--data` can be one of the 11 datasets.
+`--data` can be one of the 11 datasets, including `aircraft`, `cifar10`, `cifar100`, `cub`, `dtd`, `flower`, `food`, `ham`, `ucf`, `RESISC`, and `imagenet`.
 
 ### Step 2: Train the SAE model
 ```commandline
